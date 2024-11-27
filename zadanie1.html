@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequuntur consectetur quidem, perferendis cupiditate molestias reiciendis quos. Veritatis eum magni, itaque laborum facere assumenda in praesentium nobis alias minus accusamus veniam!
+    Consequatur modi aliquam veritatis laborum asperiores, qui expedita porro provident ex odio alias repellendus a fugit explicabo ea sit architecto facere quae dolorem in voluptatum. Deleniti doloremque quibusdam necessitatibus cum.
+    Sequi libero aliquid nihil placeat et similique exercitationem dolorem ex corporis tempora obcaecati, quae enim aperiam est quas tempore, dignissimos, id totam sed culpa reprehenderit accusantium praesentium ea. Soluta, accusamus!
+    Iusto, odio eius reprehenderit totam reiciendis neque alias facilis quod assumenda maiores quis, doloribus est aspernatur. Voluptatibus numquam reprehenderit velit error ad doloremque vel ipsa amet esse, repellendus dignissimos quia.
+    Sapiente molestiae dolores ullam explicabo! Illo vero similique pariatur, sunt autem dolor, aut voluptate nostrum culpa suscipit cumque asperiores nulla exercitationem recusandae quas rem commodi cupiditate officiis itaque, sed veniam.</p>
+   <button id="btn1">Скрыть</button>
+   <button id="btn2">Раскрыть</button>
+   <script>
+let text = document.getElementById("text");
+let btn1 = document.getElementById("btn1")
+let btn2 = document.getElementById("btn2")
+btn1.addEventListener("click", () => {
+    text.style.display = "none";
+});
+
+btn2.addEventListener("click", () => {
+    text.style.display = "block";
+});
+    </script>
+</body>
+</html>
